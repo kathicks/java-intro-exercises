@@ -12,6 +12,10 @@ public class DiamondTestDrive {
         System.out.print("Exercise 6: ");
         check(diamond.diamond(3), "  *  \n *** \n*****\n *** \n  *  \n");
         System.out.println(diamond.diamond(3));
+
+        System.out.print("Exercise 7: ");
+        check(diamond.diamondName(3), "  *  \n *** \nKat\n *** \n  *  \n");
+        System.out.println(diamond.diamondName(3));
     }
 
     private static void check(String method, String result) {
