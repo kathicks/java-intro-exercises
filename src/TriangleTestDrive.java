@@ -12,6 +12,10 @@ public class TriangleTestDrive {
         System.out.print("Exercise 2: ");
         check(triangle.horizontalLine(8), "********");
         System.out.println(triangle.horizontalLine(8));
+
+        System.out.print("Exercise 3: ");
+        check(triangle.verticalLine(3), "*\n*\n*\n");
+        System.out.print(triangle.verticalLine(3));
     }
 
     private static void check(String method, String result) {
